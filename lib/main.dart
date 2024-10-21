@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   Future<void> _launchURL() async {
-    const url = 'https://bramwelagina.my.canva.site/bramsnumbersystem';
+    const url = 'https://bramsnumbersystem.netlify.app/';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
